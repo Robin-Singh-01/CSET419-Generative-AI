@@ -37,12 +37,12 @@ We tested three distinct approaches to handle the "Low-Data" regime:
 ### 3.1 Training Performance (Accuracy Curves)
 The graph below shows how the traditional supervised models learned over 15 epochs.
 
-![Accuracy Curves](assets/accuracy_comparison.png)
+![Accuracy Curves](Assets/accuracy_comparison.png)
 
 ### 3.2 Final Accuracy Comparison
 Comparing the peak performance of Transfer Learning against Few-Shot Learning:
 
-![Method Comparison](assets/method_comparison.png)
+![Method Comparison](Assets/method_comparison.png)
 
 | Model Architecture | Technique | Best Accuracy | Evaluation |
 | :--- | :--- | :--- | :--- |
