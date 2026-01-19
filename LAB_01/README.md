@@ -1,6 +1,6 @@
 # 🐱 Rare Cat Species Classification: A Comparative Study
-**Date:** 2026-01-19
-**Author:** AI Researcher
+**Date:** 18-01-2026
+**Author:** Robin Singh
 
 ## 1. Project Overview
 The goal of this project was to classify **41 distinct species of cats** (Felidae family) using Synthetic Data Generation and Deep Learning.
