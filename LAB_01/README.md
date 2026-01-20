@@ -3,7 +3,7 @@
 **Author:** Robin Singh
 
 ## 1. Project Overview
-The goal of this project was to classify **41 distinct species of cats** (Felidae family) using Synthetic Data Generation and Deep Learning.
+The goal of this project was to classify **40 distinct species of cats** (Felidae family) using Synthetic Data Generation and Deep Learning.
 Given the scarcity of real-world data for rare wild cats (e.g., *Kodkod*, *Andean Mountain Cat*), we employed **Generative AI (Stable Diffusion)** to create the dataset and **Few-Shot Learning** techniques to classify it.
 
 ---
@@ -13,7 +13,7 @@ Given the scarcity of real-world data for rare wild cats (e.g., *Kodkod*, *Andea
 ### 2.1 Dataset Generation
 * **Source:** Synthetic generation via `Stable Diffusion v1.5`.
 * **Prompt Engineering:** *"A realistic nature documentary photo of a [Species] wild cat in its natural habitat, high detailed, 8k, national geographic style"*
-* **Structure:** 41 Classes x 10 Images per class = **410 Total Images**.
+* **Structure:** 40 Classes x 10 Images per class = **400 Total Images**.
 * **Preprocessing:** Resized to 224x224, Normalized to ImageNet standards.
 
 ### 2.2 Models Evaluated
