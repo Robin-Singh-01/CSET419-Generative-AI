@@ -1,4 +1,4 @@
-# 🐱 Rare Cat Species Classification: A Comparative Study
+# Rare Cat Species Classification: A Comparative Study
 **Date:** 18-01-2026
 **Author:** Robin Singh
 
