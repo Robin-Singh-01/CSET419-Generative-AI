@@ -11,7 +11,8 @@ The goal was to analyze how each model handles sequence generation, specifically
 ## 📊 Performance Comparison
 
 ### Training Loss Visualization
-![Comparison Chart](Screenshot 2026-02-17 041353.png)
+![Comparison Chart](Screenshot 2026-02-17 041353.png
+Robin-Singh-01)
 *Figure 1: Training loss over 30 epochs. The Simple RNN (Red) fails to learn. The LSTM (Blue) converges smoothly. The Transformer (Green) achieves comparable loss with superior potential for complex vocabulary.*
 
 ### Key Metrics Table
