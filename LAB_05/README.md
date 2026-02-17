@@ -75,3 +75,5 @@ Example training call:
 
 ```python
 train_model(epochs=20)
+
+![Generated Output]()
