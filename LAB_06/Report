@@ -1,0 +1,52 @@
+============================================================
+           PIX2PIX GAN — TRAINING REPORT
+============================================================
+
+📌 MODEL PARAMETERS
+  U-Net Generator params    : 54,413,955
+  PatchGAN Discriminator    : 2,769,601
+  Baseline CNN params       : 13,906,947
+
+📌 HYPERPARAMETERS
+  Image Size      : 256 x 256
+  Batch Size      : 8
+  Epochs          : 50
+  Learning Rate   : 0.0002
+  Adam β1 / β2    : 0.5 / 0.999
+  Lambda L1       : 100.0
+  Train Samples   : 1000
+  Val Samples     : 100
+
+📌 FINAL TRAINING LOSSES (last epoch)
+  Generator Total Loss      : 6.6986
+    ↳ Adversarial Component : 1.5036
+    ↳ L1 Component (×100)   : 5.1950
+  Discriminator Loss        : 0.4767
+  Baseline CNN L1 Loss      : 0.0420
+
+📌 LOSS PROGRESSION (every 10 epochs)
+   Epoch |   G_Loss |   D_Loss |    G_Adv |     G_L1 |   CNN_L1
+  -------------------------------------------------------
+       1 |  30.2229 |   0.4281 |   1.7898 |    28.43 |   0.3326
+      11 |  12.1800 |   0.5995 |   1.0547 |    11.13 |   0.0941
+      21 |   8.5353 |   0.5985 |   1.0897 |     7.45 |   0.0685
+      31 |   7.1778 |   0.6108 |   0.9630 |     6.21 |   0.0543
+      41 |   6.3053 |   0.6564 |   1.0227 |     5.28 |   0.0463
+      50 |   6.6986 |   0.4767 |   1.5036 |     5.20 |   0.0420
+
+📌 VALIDATION METRICS
+  Metric                  Pix2Pix GAN   Baseline CNN
+  --------------------------------------------------
+  MAE (L1)                     0.2027         0.2074
+  PSNR (dB)                     14.67          14.01
+
+  MAE improvement  (Pix2Pix vs CNN): +2.25%
+  PSNR improvement (Pix2Pix vs CNN): +4.70%
+
+📌 DISCRIMINATOR HEALTH CHECK
+  Final D loss: 0.4767  (ideal ≈ 0.5 = balanced equilibrium)
+  ✅ Healthy: Generator and Discriminator are in equilibrium
+
+============================================================
+  Outputs: loss_curves.png | final_comparison.png
+============================================================
